@@ -1,0 +1,44 @@
+body {
+    background-color: #222;
+    color: #eee;
+    font-family: Arial, Helvetica, sans-serif;
+    min-height: 100vh;
+    margin: 0;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+}
+
+a {
+    color: aquamarine;
+}
+
+#content {
+    padding: 20px;
+    align-items: center;
+    text-align: center;
+}
+
+h1{
+    font-size: 100px;
+}
+
+#header {
+    font-size: larger;
+    background-color: #333;
+    padding: 20px;
+
+}
+
+#header a {
+    margin: 0 5px 0 5px
+}
+
+#footer a {
+    margin: 0 5px 0 5px
+}
+
+#footer {
+    font-size: larger;
+    background-color: #333;
+    padding: 20px;
+}
