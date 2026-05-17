@@ -1,11 +1,14 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto); selector { font-family: "roboto"; } 
+
 body {
     background-color: #222;
     color: #eee;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: roboto;
     min-height: 100vh;
     margin: 0;
     display: grid;
     grid-template-rows: auto 1fr auto;
+    font-size: large;
 }
 
 a {
@@ -41,4 +44,25 @@ h1{
     font-size: larger;
     background-color: #333;
     padding: 20px;
+}
+
+button {
+    color: #ffffff;
+    background-color: green;
+    border-radius: 15px;
+    border: none;
+    cursor: pointer;
+    width: auto;
+    height: auto;
+    font-size: 20px;
+    padding: 15px;
+}
+
+button:hover {
+    background-color: darkgreen;
+    color: #E0E5E2;
+}
+
+button:active {
+    transform: translateY(10px);
 }
